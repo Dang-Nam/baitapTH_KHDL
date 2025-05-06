@@ -20,6 +20,13 @@ Yêu cầu:
 + Vẽ biểu đồ residual plot để phân tích sai số của mô hình tốt nhất.
 + Thực hiện phân tích SHAP (SHapley Additive exPlanations) để giải thích đóng góp của từng đặc trưng vào dự đoán của mô hình Gradient Boosting.
 
+kết quả bài 2:
+
+![image](https://github.com/user-attachments/assets/0e2364f3-3177-4655-9efc-df56142e264c)
+
+![image](https://github.com/user-attachments/assets/ad2d7d22-038a-4609-896a-53765e50b2ad)
+
+
 Bài 5: Phân tích dữ liệu giáo dục
 Mô tả: Bạn là nhà phân tích dữ liệu tại một trường đại học, được giao nhiệm vụ phân tích hiệu suất học tập của sinh viên dựa trên dữ liệu giả định: ID sinh viên, điểm các môn (toán, văn, khoa học), số giờ tự học, số buổi vắng mặt, và mức độ tham gia hoạt động ngoại khóa (thấp, trung bình, cao).
 Dữ liệu: https://drive.google.com/file/d/1djzdxesK8onGTdHEMNSyL4OB6WTsHyBb/view?usp=sharing
@@ -29,6 +36,13 @@ Dữ liệu: https://drive.google.com/file/d/1djzdxesK8onGTdHEMNSyL4OB6WTsHyBb/v
 + Tạo đặc trưng "rủi ro học tập" dựa trên số buổi vắng mặt và số giờ tự học (tự định nghĩa ngưỡng).
 + Xây dựng mô hình SVM (Support Vector Machine) để phân loại sinh viên thành 2 nhóm: "có nguy cơ trượt" hoặc "an toàn" dựa trên đặc trưng đã tạo.
 + Tự điều chỉnh siêu tham số của SVM (như C, kernel) bằng cách thử nghiệm và ghi lại kết quả.
+kết quả bài 5:
+
+![image](https://github.com/user-attachments/assets/2238e861-1355-4883-a41a-23057488dddd)
+
+
+![image](https://github.com/user-attachments/assets/9a1f3f6f-d74e-429e-94b4-1e69e3fd6c67)
+
 
 Bài 7: Phân tích dữ liệu y tế
 Mô tả: Bạn làm việc tại một bệnh viện và được giao phân tích dữ liệu giả định về bệnh nhân tiểu đường. Dữ liệu bao gồm: tuổi, BMI, mức đường huyết, số lần nhập viện, và liệu bệnh nhân có biến chứng (có/không).
@@ -40,3 +54,12 @@ Yêu cầu: https://drive.google.com/file/d/1K3y9WnaMPi_oMFylAELFnNXtgLhFnPU4/vi
 + Xây dựng mô hình Logistic Regression và Random Forest để dự đoán khả năng biến chứng.
 + Tự điều chỉnh siêu tham số của Random Forest (như n_estimators, max_depth) bằng cách thử nghiệm và so sánh hiệu suất.
 + Sử dụng kỹ thuật SMOTE để xử lý mất cân bằng dữ liệu (nếu tỷ lệ biến chứng thấp).
+
+kết quả bài7:
+
+
+![image](https://github.com/user-attachments/assets/2a4be7e9-14a4-4379-9c85-c9e5fe4436f0)
+
+
+![image](https://github.com/user-attachments/assets/242e1768-fb4e-40fe-a3d3-05cef3dd7c28)
+
